@@ -1,0 +1,7 @@
+INFO:root:Calling loader
+INFO:root:Inspection load time: 66388.7165000051
+INFO:root:Tweet load time: 3390384.0
+INFO:root:Latency Perecentiles(ms) - 50th:56.00, 95th:132.00, 99th:293.00, 100th:3759.00 - Count:49575
+INFO:root:Total: 49575 Count of 200:49575 Count of 201:0 Count of other <400:0
+INFO:root:Total time: 3456772.716500005
+

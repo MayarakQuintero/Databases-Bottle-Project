@@ -1,0 +1,17 @@
+Work flow for MS5: diegodiaz - mayarakquintero
+
+a) Individual work.
+b) Group discussion to solve bugs and discuss solutions.
+c) Code comparison to unify it. 
+
+Hours spent: 8 hours each
+
+Similarity model:
+
+To calculate similarity scores between entries we opted out to use the Jaro Winkler distance of names and addresses, and after trying several options, we decided to use the similarity between names but conditional on having a similarity of address higher than 0.85. We implemented this function in the Restaurant class. 
+As for using the Jaro Winkler distance, it was the best choice because it compares the strings on characters in common, rather than, for instance, the number of edits required to convert one string to the other as the Levenshtein distance does. In case two entries of a restaurants have different amounts of empty space but the name is similar, the Jaro Winkler would give us a better chance of having a match, which would be correct in such a case.
+
+Heuristic to select primary key: 
+
+We opted out to choose the minimum value between restaurants ids that should be match and update the ri_inspections and ri_restaurants table considering that.
+

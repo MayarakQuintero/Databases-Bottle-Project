@@ -1,0 +1,4 @@
+INFO:root:Calling loader
+INFO:root:Inspection load time: 105444.77031099814
+INFO:root:Skipping Tweets
+INFO:root:Total time: 105534.43842299748

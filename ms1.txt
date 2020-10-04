@@ -1,0 +1,5 @@
+Work flow for MS1: diegodiaz - mayarakquintero
+
+a) Individual work from Task 1 to Task 4. 
+b) Group discussion to solve bugs and discuss solutions.
+c) Code comparison to unify it. 

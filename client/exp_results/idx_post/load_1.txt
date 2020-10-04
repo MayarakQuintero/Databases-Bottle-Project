@@ -1,0 +1,7 @@
+INFO:root:Calling loader
+INFO:root:{'2370195': {'restaurant_id': '5'}}
+INFO:root:Inspection total load time: 341697.0
+INFO:root:Latency Perecentiles(ms) - 50th:138.00, 95th:385.00, 99th:663.00, 100th:1231.00 - Count:2000
+INFO:root:Total: 2000 Count of 200:160 Count of 201:1840 Count of other <400:0
+INFO:root:Skipping Tweets
+INFO:root:Total time: 341784.9018380001

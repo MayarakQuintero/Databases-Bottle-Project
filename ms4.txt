@@ -1,0 +1,22 @@
+Work flow for MS4: diegodiaz - mayarakquintero
+
+a) Individual work.
+b) Group discussion to solve bugs and discuss solutions.
+c) Code comparison to unify it. 
+
+Hours spent: 6 hours each
+
+The total time reported WITHOUT index is 3,456,772.71 ms and the total time reported WITH index is 3,172,202.79 ms, which represents 8.3% less time with index than without it. 
+The above agrees with theory: indexes help queries to be more efficient. 
+
+Another way to analyze this is based on the interpretation of Latency Percentiles:
+
+Percentile | WITHOUT Index | WITH Index
+---------------------------------------
+50th	   |	56 ms      |	53 ms   
+95th	   |	132	ms	   |	110 ms
+99th	   |	293	ms	   |	247 ms
+100th	   |	3759 ms    |	1343 ms
+
+The experiment with indexes outperformed the one without them. For example, on one hand, WITHOUT indexes the whole sample took less or equal to 3,759 ms per transaction. 
+On the other hand, WITH indexed the whole sample took less or equal to 1,343 ms per transaction. 

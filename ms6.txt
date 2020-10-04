@@ -1,0 +1,19 @@
+Work flow for MS6: diegodiaz - mayarakquintero
+
+a) Individual work.
+b) Group discussion to solve bugs and discuss solutions.
+c) Code comparison to unify it. 
+
+Hours spent: 8 hours each
+
+Block creation:
+We created blocks based on the zip code of each dirty restaurant that we evaluated. In order to avoid the creation of the same block several times, we have a set that keeps track of restaurant_id that were already grouped into a block.
+We chose xip code as an attribute to group by to allow for smaller blocks than with state or city attributes. 
+
+Index creation:
+We created the index in temporary tables after blocking. The attribute that we used was address. Although, we are aware that there could be matches that we miss because of typos. 
+
+
+Primary record creation:
+First, we evaluated if the one of the ids that we flagged as match was already as primary record id in ri_linked. If it wasn't there we created a new primary record. If it was, we delete that record and create a new one that take into account all matches' attributes. 
+To create the new primary record we use the DEFAULT option for id, and choose the longest name, as well as the most frequent facility type, state, city, zip. 

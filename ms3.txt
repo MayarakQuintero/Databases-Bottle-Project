@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+Work flow for MS3: diegodiaz - mayarakquintero
+
+a) Individual work.
+b) Group discussion to solve bugs and discuss solutions.
+c) Code comparison to unify it. 
+
+Hours spent: 6 hours each
+=======
+Work flow for MS3: diegodiaz - mayarakquintero
+>>>>>>> 0b89b8c0e67a647f91049c255b81d2065ddba06b
