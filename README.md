@@ -1,6 +1,7 @@
 # Authors 
 
 Diego Díaz 
+
 Mayarak Quintero 
 
 # Instructor 
